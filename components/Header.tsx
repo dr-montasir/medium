@@ -5,7 +5,7 @@ function Header() {
     <header className="flex justify-between p-5 max-w-7xl mx-auto">
       <div className="flex items-center space-x-5">
         <Link href="/">
-          <img className="w-44 object-contain cursor-pointer" src="/img/logo.png" alt="medium" />
+          <img className="w-32 object-contain cursor-pointer" src="/img/logo.png" alt="medium" />
         </Link>
         <div className="hidden md:inline-flex items-center space-x-5">
           <h1>About</h1>

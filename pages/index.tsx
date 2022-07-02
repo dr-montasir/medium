@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
+import mnjs from 'mnjs'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,11 @@ const Home: NextPage = () => {
         </div>
 
         <img className='hidden md:inline-flex h-32 lg:h-full' src="/img/medium-1.svg" alt="M" />
+      </div>
+
+      {/* Posts */}
+      <div>
+        {mnjs.asin.deg(0.5)}
       </div>
 
     </div>

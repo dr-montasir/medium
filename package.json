@@ -8,6 +8,7 @@
   "dependencies": {
     "mnjs": "^4.3.0",
     "next": "latest",
+    "next-sanity": "^0.5.2",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },

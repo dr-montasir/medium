@@ -15,3 +15,9 @@ npm i mnjs
 ```shell
 npm install -g @sanity/cli && sanity init
 ```
+
+4. Install next-sanity
+
+```shell
+npm i next-sanity
+```
