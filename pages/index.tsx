@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
-import mnjs from 'mnjs'
 
 const Home: NextPage = () => {
   return (
@@ -24,9 +23,6 @@ const Home: NextPage = () => {
       </div>
 
       {/* Posts */}
-      <div>
-        {mnjs.asin.deg(0.5)}
-      </div>
 
     </div>
   )
